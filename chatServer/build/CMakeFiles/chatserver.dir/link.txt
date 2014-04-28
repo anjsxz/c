@@ -1,0 +1,1 @@
+/usr/bin/cc  -g    CMakeFiles/chatserver.dir/epoll-example.o  -o chatserver -rdynamic 
