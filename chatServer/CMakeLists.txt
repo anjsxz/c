@@ -1,5 +1,5 @@
 project(chatserver)
 
-add_executable(chatserver a.c epoll-example.c )
+add_executable(chatserver epoll.cc   )
 
 install(TARGETS chatserver RUNTIME DESTINATION bin)
