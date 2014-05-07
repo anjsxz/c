@@ -30,6 +30,12 @@
 		5F9A89851917C34F004B7E6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5F9A89871917C34F004B7E6E /* XcodeDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = XcodeDemo.1; sourceTree = "<group>"; };
 		5F9A898E1917C3B0004B7E6E /* epoll-example.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "epoll-example.c"; path = "../../../learn/epoll-example.c"; sourceTree = "<group>"; };
+		5FBC2D1D1918501300D57F8B /* 15-1processpool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "15-1processpool.h"; sourceTree = "<group>"; };
+		5FBC2D1E1918501300D57F8B /* 15-2pool_cgi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "15-2pool_cgi.cpp"; sourceTree = "<group>"; };
+		5FBC2D1F1918501300D57F8B /* 15-3threadpool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "15-3threadpool.h"; sourceTree = "<group>"; };
+		5FBC2D201918501300D57F8B /* 15-4http_conn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "15-4http_conn.h"; sourceTree = "<group>"; };
+		5FBC2D211918501300D57F8B /* 15-5http_conn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "15-5http_conn.cpp"; sourceTree = "<group>"; };
+		5FBC2D221918501300D57F8B /* 15-6main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "15-6main.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +68,26 @@
 		5F9A89841917C34F004B7E6E /* XcodeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5FBC2D1C1918501300D57F8B /* 15 */,
 				5F9A89851917C34F004B7E6E /* main.cpp */,
 				5F9A898E1917C3B0004B7E6E /* epoll-example.c */,
 				5F9A89871917C34F004B7E6E /* XcodeDemo.1 */,
 			);
 			path = XcodeDemo;
+			sourceTree = "<group>";
+		};
+		5FBC2D1C1918501300D57F8B /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				5FBC2D1D1918501300D57F8B /* 15-1processpool.h */,
+				5FBC2D1E1918501300D57F8B /* 15-2pool_cgi.cpp */,
+				5FBC2D1F1918501300D57F8B /* 15-3threadpool.h */,
+				5FBC2D201918501300D57F8B /* 15-4http_conn.h */,
+				5FBC2D211918501300D57F8B /* 15-5http_conn.cpp */,
+				5FBC2D221918501300D57F8B /* 15-6main.cpp */,
+			);
+			name = 15;
+			path = "../../../../../../../../../Users/anjun/百度云同步盘/ebook/good/codes/15";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +262,7 @@
 				5F9A898D1917C34F004B7E6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
